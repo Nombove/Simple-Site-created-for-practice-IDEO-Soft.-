@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Ideo Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="btn-group">
+          <button class="btn btn-default font">Aktualności</button>
+          <button class="btn btn-default font">Branże</button>
+          <button class="btn btn-default font">Produkty</button>
+          <button class="btn btn-default font">Usługi</button>
+          <button class="btn btn-default font">Referencje</button>
+          <button class="btn btn-default font">Kontakt</button>
+        </div>
+        <form id="demo">
+          <input type="search" placeholder="Szukaj" />
+        </form>
+      </nav>
+
+      <div id="mySidenav" class="sidenav">
+        <ul id="myMenu">
+          <li id="menuHeader">Menu</li>
+          <li id="menuBreak">...................</li>
+          <li><a href="#">Aktualności</a></li>
+          <li><a href="#">Branże</a></li>
+          <li><a href="#">Produkty</a></li>
+          <li><a href="#">Usługi</a></li>
+          <li><a href="#">Referencje</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li id="menuBreak">...................</li>
+          <li>
+            <a href="#">O<span style="color:white">_</span>firmie</a>
+          </li>
+          <li><a href="#">Nagrody</a></li>
+          <li>
+            <a href="#">Relacje<br />inwestorskie</a>
+          </li>
+          <li><a href="#">Partnerzy</a></li>
+          <li><a href="#">Kariera</a></li>
+        </ul>
+        <ul id="myMenu2">
+          <a href="https://www.facebook.com/">
+            <img
+              src="/images/FBlogo.jpg"
+              class="img-fluid"
+              alt="Facebook logo"
+            />
+          </a>
+          <br />
+          <a href="https://www.linkedin.com">
+            <img
+              src="/images/INlogo.jpg"
+              class="img-fluid"
+              alt="LinkedIn logo"
+            />
+          </a>
+        </ul>
+      </div>
+    </header>
+
+    <div id="main" class="container">
+      <div class="row">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-10">
+          <img
+            src="/images/home.jpg"
+            class="img-fluid imghome"
+            alt="Home logo"
+          />
+          <div class="dotted">
+            <hr style="border-top: dotted 2px;" />
+          </div>
+        </div>
+        <div class="test">
+          <img
+            src="/images/simpleLogo.jpg"
+            class="img img-fluid"
+            alt="Company logo"
+          />
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-1">
+          <div id="rotate" class="triangle-right" onclick="openNav()"></div>
+        </div>
+        <div class="col-sm-5">
+          <h5>SIMPLE - z nami biznes jest prostszy!</h5>
+          <img
+            src="/Ideo/images/relax.jpg"
+            class="img-fluid rounded"
+            alt="Relaxed man picture"
+          />
+          <h5>PONAD 24 LATA DOŚWIADCZENIA</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+          <h5>PONAD 2 500 KLIENTÓW</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+          <h5>PONAD 2500 UŻYTKOWNIKÓW</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+          <h5>NASI ODBIORCY</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+          </p>
+          <h5>ZINTEGROWANE ROZWIĄZANIA DLA KAŻDEJ BRANŻY</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+          <h5>CERTYFIKATY I REKOMENDACJE</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor, ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit.
+          </p>
+
+          <p>
+            Oprogramowanie SIMPLE, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor, ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor.
+          </p>
+          <h5>ZAWSZE BLISKO CIEBIE</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+          <br />
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <script>
+      var open = 1;
+      function openNav() {
+        if (open == 1) {
+          document.getElementById("mySidenav").style.width = "200px";
+          document
+            .getElementById("rotate")
+            .setAttribute("style", "transform:rotate(180deg)");
+          open = 0;
+        } else if (open == 0) {
+          document.getElementById("mySidenav").style.width = "0%";
+          document
+            .getElementById("rotate")
+            .setAttribute("style", "transform:rotate(0deg)");
+          open = 1;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+body {
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+}
+h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #003d5f;
+}
+.navbar {
+  background-color: #003d5f;
+  position: relative;
+  height: 70px;
+}
+
+.font {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  padding-right: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 70px;
+}
+
+.test {
+  position: absolute;
+  top: 0px;
+  left: 21%;
+}
+
+.triangle-right {
+  border-top: 10px solid transparent;
+  border-left: 20px solid #555;
+  border-bottom: 10px solid transparent;
+  position: relative;
+  top: 10%;
+}
+
+.btn-group {
+  left: 39%;
+}
+.img {
+  width: 65%;
+}
+.rounded {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.imghome {
+  padding: 40px;
+}
+.dotted{
+  border: 2px;
+  
+}
+@media only screen and (min-width: 1900px) {
+  .test {
+    position: absolute;
+    top: 0px;
+    left: 26%;
+  }
+  .btn-group {
+    left: 40%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .test {
+    position: absolute;
+    top: 0px;
+    left: 16%;
+  }
+  .btn-group {
+    left: 36%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .img {
+    width: 0%;
+    height: 0%;
+  }
+
+  #mymenu {
+    font-size: 10px;
+  }
+  .btn-group {
+    left: 1%;
+  }
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+#myMenu {
+  list-style-type: none;
+  padding-left: 30px;
+}
+#myMenu2 {
+  list-style-type: none;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+/* Style the navigation links */
+#myMenu li a {
+  padding: 5px;
+  padding-right: 150px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+#menuHeader {
+  padding-left: 15px;
+  padding-top: 100px;
+  color: black;
+  display: block;
+}
+#menuBreak {
+  padding-left: 15px;
+}
+
+input[type="search"] {
+  background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png)
+    no-repeat 10px center;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  transition: all 0.5s;
+}
+
+#demo input[type="search"] {
+  width: 15px;
+  border: #003d5f;
+  color: transparent;
+  cursor: pointer;
+  position: relative;
+  right: 50%;
+}
+
+#demo input[type="search"]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
